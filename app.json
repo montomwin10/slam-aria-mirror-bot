@@ -22,9 +22,7 @@
       },
       "GDRIVE_FOLDER_ID": {
         "description": "This is the folder ID of the Google Drive Folder to which you want to upload all the mirrors.",
-        "value": "1-5-91kUsAjEqBLaMkqdlw7ijygjq8Np5",
         "required": true
-      
       },
       "DOWNLOAD_DIR": {
         "description": "The path to the local folder where the downloads should be downloaded to.",
@@ -38,17 +36,14 @@
       },
       "OWNER_ID": {
         "description": "The Telegram User ID of the Owner of the Bot. Get it by using /info in @MissRose_bot.",
-         "value": "525932546",
         "required": true
       },
       "AUTO_DELETE_MESSAGE_DURATION": {
         "description": "Interval of time (in seconds), after which the bot deletes it's message (and command message) which is expected to be viewed instantly. Note: Set to -1 to never automatically delete messages.",
-          "value": "10",
         "required": true
       },
       "IS_TEAM_DRIVE": {
         "description": "Set to 'True' if GDRIVE_FOLDER_ID is from a Team Drive else False or Leave it empty.",
-        "value": "True",  
         "required": false
       },
       "USE_SERVICE_ACCOUNTS": {
@@ -57,7 +52,6 @@
       },
       "AUTHORIZED_CHATS": {
         "description": "Fill User ID and Chat ID of you want to authorize, Seprate them with space.",
-         "value": "525932546",
         "required": false
       },
       "SUDO_USERS": {
@@ -70,12 +64,10 @@
       },
       "TELEGRAM_API": {
         "description": "This is to authenticate to your Telegram account for downloading Telegram files. You can get this from https://my.telegram.org.",
-        "value": "1545076",
         "required": true
       },
       "TELEGRAM_HASH": {
         "description": "This is to authenticate to your Telegram account for downloading Telegram files. You can get this from https://my.telegram.org.",
-        "value": "a6aa650e63199e7ca9e5e77145c1f745",
         "required": true
       },
       "HEROKU_API_KEY": {
@@ -122,7 +114,6 @@
       },
       "TORRENT_DIRECT_LIMIT": {
         "description": "To limit the Torrent/Direct mirror size, Leave space between number and unit. Available units is (gb or GB, tb or TB).",
-        "value": "200 gb",
         "required": false
       },
       "TAR_UNZIP_LIMIT": {
@@ -139,22 +130,18 @@
       },
       "STOP_DUPLICATE": {
         "description": "If this field is set to True, bot will check file in Drive, if it is present in Drive, downloading will be stopped.",
-        "value": "True",
         "required": false
       },
       "IGNORE_PENDING_REQUESTS": {
         "description": "If you want the bot to ignore pending requests after it restarts, set this to True.",
-        "value": "False",
         "required": false
       },
       "SHORTENER": {
         "description": "If you want to use shortener in Gdrive and index link.",
-        "value": "za.gl",
         "required": false
       },
       "SHORTENER_API": {
         "description": "Fill your shortener api key if you are using shortener.",
-        "value": "11629c735af05d16b26f04074f4f43ed4ff65c37",
         "required": false
        },
       "TOKEN_PICKLE_URL": {
@@ -196,7 +183,7 @@
       },
       "STATUS_LIMIT": {
         "description": "Status limit with buttons, Recommend limit status to 4 tasks max.",
-        "value": "4",
+        "value": "",
         "required": false
       }
     },
